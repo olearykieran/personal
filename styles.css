@@ -1,0 +1,74 @@
+<style>
+    @font-face {
+      font-family: "CustomFont1";
+      src: url("/Users/kieran/Downloads/RadiantAntique/RadiantAntique.ttf") format("truetype");
+    }
+
+    @font-face {
+      font-family: "CustomFont2";
+      src: url("/Users/kieran/Downloads/money_money_plus/Money Money Plus.ttf") format("truetype");
+    }
+
+    @font-face {
+      font-family: "CustomFont3";
+      src: url("/Users/kieran/Downloads/money_money_plus/Money Money Plus.ttf") format("truetype");
+    }
+
+    @font-face {
+      font-family: "CustomFont4";
+      src: url("/Users/kieran/Downloads/taurus/taurus.ttf") format("truetype");
+    }
+
+    body {
+      background-image: url("/Users/kieran/Downloads/DALL·E 2023-07-17 18.40.48.png");
+      background-repeat: repeat;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .custom-title {
+      font-size: 88px;
+      font-weight: normal;
+      color: black;
+      font-family: "CustomFont1", Arial, sans-serif;
+    }
+
+    .slogan {
+      font-size: 56px;
+      color: black;
+      font-family: "CustomFont2", Arial, sans-serif;
+      margin-bottom: 40px;
+    }
+
+    .phone {
+      font-size: 46px;
+      color: black;
+      font-family: "CustomFont3", Arial, sans-serif;
+    }
+
+    .textbox-left,
+    .textbox-right {
+      width: 40%;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+      font-family: "CustomFont4", Arial, sans-serif;
+      font-size: 36px;
+      color: black;
+    }
+
+    .textbox-left {
+      float: left;
+    }
+
+    .textbox-right {
+      float: right;
+    }
+  </style>
